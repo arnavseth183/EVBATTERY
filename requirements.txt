@@ -1,0 +1,58 @@
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+lightgbm
+catboost
+torch
+ta
+pandas-ta
+statsmodels
+arch
+
+# Web3 & Blockchain
+web3
+eth-account
+eth-abi
+eth-utils
+py-solc-x
+cryptography
+
+# Web Framework
+fastapi
+uvicorn
+aiohttp
+requests
+
+# Database
+sqlalchemy
+psycopg2-binary
+redis
+
+# Visualization & UI
+matplotlib
+seaborn
+plotly
+streamlit
+streamlit-autorefresh
+
+# ML Optimization
+optuna
+hyperopt
+
+# Testing
+pytest
+joblib
+
+# IoT & QR Code Support
+paho-mqtt
+qrcode[pil]
+pillow
+
+# Battery Specific
+python-dotenv
+
+# Data Export
+openpyxl
+xlsxwriter

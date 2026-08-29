@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-05-04T10:52:09.942648",
+  "tests": {
+    "Web3 Connection": {
+      "passed": true,
+      "message": "Connected to chain 31337, block 2"
+    },
+    "Account Access": {
+      "passed": true,
+      "message": "Found 20 accounts"
+    },
+    "Contract Addresses": {
+      "passed": true,
+      "message": "All 4 contracts found"
+    },
+    "Load TradingProtocol": {
+      "passed": true,
+      "message": "Loaded with ABI (41 methods)"
+    },
+    "Load Ledger": {
+      "passed": true,
+      "message": "Loaded with ABI (48 methods)"
+    },
+    "Load Governance": {
+      "passed": true,
+      "message": "Loaded with ABI (44 methods)"
+    },
+    "Load PortfolioManager": {
+      "passed": true,
+      "message": "Loaded with ABI (42 methods)"
+    },
+    "Portfolio State Structure": {
+      "passed": true,
+      "message": "Cash: 10000.0, History: 1, Positions: 0"
+    },
+    "Protocol Parameters": {
+      "passed": true,
+      "message": "Loaded 4 parameters"
+    },
+    "Enforce Rules Method": {
+      "passed": true,
+      "message": "Rules check: OK"
+    },
+    "Execute BUY Trade": {
+      "passed": true,
+      "message": "Result: SIMULATED | Cost: 6000, Cash: 4000.0"
+    },
+    "Portfolio Updated": {
+      "passed": true,
+      "message": "Position: True, History entries: 2"
+    },
+    "Execute SELL Trade": {
+      "passed": true,
+      "message": "Result: SIMULATED | Proceeds: 3030"
+    },
+    "Portfolio History": {
+      "passed": true,
+      "message": "Have 3 history points"
+    },
+    "PnL Calculation": {
+      "passed": true,
+      "message": "PnL: 30.00"
+    },
+    "Create User": {
+      "passed": true,
+      "message": "Wallet: 0xb33aD4b3..."
+    },
+    "Authenticate User": {
+      "passed": true,
+      "message": "Auth result: OK"
+    },
+    "Get Wallet": {
+      "passed": true,
+      "message": "Wallet: 0xb33aD4b3..."
+    },
+    "Propose Change": {
+      "passed": true,
+      "message": "Proposal ID: 0x0000000000000000000000000000..."
+    },
+    "Parameter Updated": {
+      "passed": true,
+      "message": "risk_limit: 0.75"
+    }
+  },
+  "passed": 20,
+  "failed": 0
+}
